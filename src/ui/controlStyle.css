@@ -1,0 +1,17 @@
+.color-picker .label {
+     -fx-text-fill: null;
+}
+
+.color-picker {
+    -fx-color-rect-width: 80px;
+    -fx-color-rect-height: 80px;
+    -fx-color-label-visible: false;
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+.color-palette .hyperlink, .color-palette .separator {
+  visibility: hidden ;
+}
